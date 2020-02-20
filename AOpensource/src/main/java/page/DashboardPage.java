@@ -20,7 +20,7 @@ public class DashboardPage {
 	WebElement allPosts;
 	
 	public void Wait() {
-	new WebDriverWait(driver,60).until(ExpectedConditions.visibilityOf(post));
+	new WebDriverWait(driver,50).until(ExpectedConditions.visibilityOfAllElements(post));
 	}
 	
 	public void clickOnPosts() {

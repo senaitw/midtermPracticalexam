@@ -34,10 +34,10 @@ public class LoginTest {
 		draftPage.mydraftisDisplayed();
 		
 		
-		DashboardPage dashboardPage = PageFactory.initElements(driver, DashboardPage.class);
+		/*DashboardPage dashboardPage = PageFactory.initElements(driver, DashboardPage.class);
 		dashboardPage.Wait();
 		dashboardPage.clickOnPosts();
-		dashboardPage.clickOnAllPosts();
+		dashboardPage.clickOnAllPosts();*/
 	}
 }	
 
