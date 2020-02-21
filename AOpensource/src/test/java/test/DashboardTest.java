@@ -19,10 +19,13 @@ public void clickOnPosts() throws InterruptedException {
 	loginpage.enterUsername("opensourcecms");
 	loginpage.enterpassword("opensourcecms");
 	loginpage.clickOnSigninButton();
-	Thread.sleep(3000);
-	DashboardPage dashboardpage = PageFactory.initElements(driver, DashboardPage.class);
 	
+	Thread.sleep(6000);
+	
+	DashboardPage dashboardpage = PageFactory.initElements(driver, DashboardPage.class);
+	dashboardpage.Wait();
 	dashboardpage.clickOnPosts();
+	Thread.sleep(3000);
 	dashboardpage.clickOnAllPosts();
 	
 	driver.close();

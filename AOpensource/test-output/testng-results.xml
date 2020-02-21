@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21935" started-at="2020-02-20T06:12:30Z" finished-at="2020-02-20T06:12:52Z">
+  <suite name="Default suite" duration-ms="18893" started-at="2020-02-21T02:44:58Z" finished-at="2020-02-21T02:45:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21935" started-at="2020-02-20T06:12:30Z" finished-at="2020-02-20T06:12:52Z">
-      <class name="test.LoginTest">
-        <test-method status="PASS" signature="validuserShouldableToLogin()[pri:0, instance:test.LoginTest@3a82f6ef]" name="validuserShouldableToLogin" duration-ms="21917" started-at="2020-02-20T00:12:30Z" finished-at="2020-02-20T00:12:52Z">
+    <test name="Default test" duration-ms="18893" started-at="2020-02-21T02:44:58Z" finished-at="2020-02-21T02:45:17Z">
+      <class name="test.DashboardTest">
+        <test-method status="PASS" signature="clickOnPosts()[pri:0, instance:test.DashboardTest@3a82f6ef]" name="clickOnPosts" duration-ms="18875" started-at="2020-02-20T20:44:58Z" finished-at="2020-02-20T20:45:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validuserShouldableToLogin -->
-      </class> <!-- test.LoginTest -->
+        </test-method> <!-- clickOnPosts -->
+      </class> <!-- test.DashboardTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

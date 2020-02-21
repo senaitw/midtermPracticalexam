@@ -26,7 +26,7 @@ public class LoginTest {
 		QuickDraftPage draftPage = PageFactory.initElements(driver, QuickDraftPage.class);
 		Thread.sleep(3000);
 	
-		draftPage.Title("it was working");
+		draftPage.Title("it is working");
 		draftPage.writecontent("keep up the good work");
 		draftPage.clickOnSaveDraft();
 		Thread.sleep(3000);
@@ -38,6 +38,8 @@ public class LoginTest {
 		dashboardPage.Wait();
 		dashboardPage.clickOnPosts();
 		dashboardPage.clickOnAllPosts();*/
+		driver.close();
+		driver.quit();
 	}
 }	
 

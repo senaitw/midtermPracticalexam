@@ -28,7 +28,7 @@ public class QuickDraftPage {
 	@FindBy(how=How.XPATH,using="//h2[text()='Your Recent Drafts']")
 	WebElement recenttitle;
 	
-	@FindBy(how=How.XPATH,using="//a[text()='it was working']")
+	@FindBy(how=How.XPATH,using="//a[text()='it is working']")
 	WebElement recent;
 	
 	
@@ -47,6 +47,7 @@ public class QuickDraftPage {
 	//Validate the post appeared below under "Your recent Drafts"
 	public void mydraftisDisplayed() {
 		recent.click();
+		
 	}
 	
 }
